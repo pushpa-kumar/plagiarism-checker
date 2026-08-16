@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Build artifacts (produced by phase1/phase2 Makefiles)
+phase1/main
+phase1/*.dSYM/
+phase2/main
+phase2/*.dSYM/
+phase2/output.txt
+*.o
